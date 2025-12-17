@@ -1,59 +1,89 @@
-# TattoStudioAngular
+🐍 INKED_STUDIO — Sitio Web para Estudio de Tatuajes
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+Este repositorio contiene INKED_STUDIO, un sitio web profesional desarrollado para representar la imagen, estilo y servicios de un estudio de tatuajes. El proyecto está completamente finalizado y listo para ser entregado, instalado o desplegado en el hosting del cliente.
 
-## Development server
 
-To start a local development server, run:
+🧾 Descripción del proyecto
 
-```bash
-ng serve
+El sitio web está diseñado para ofrecer una experiencia visual potente, moderna y enfocada en transmitir la esencia artística del estudio. Incluye:
+
+Página principal con presentación del estudio y su identidad visual
+
+Sección de estilos y servicios (realismo, blackwork, minimalista, etc.)
+
+Galería profesional con trabajos del tatuador o el equipo
+
+Información esencial: horarios, ubicación, contacto y redes sociales
+
+Diseño responsive, adaptado a móviles, tablets y ordenadores
+
+El objetivo del proyecto es proporcionar una página atractiva, rápida y con un estilo visual impactante, adecuada para estudios de tatuajes que quieran mostrar su trabajo de forma profesional.
+
+
+🛠 Tecnologías utilizadas
+
+El desarrollo del sitio se ha realizado con:
+
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+shadcn/ui (componentes estilizados)
+
+Estas tecnologías garantizan un sitio moderno, fácil de mantener y con un rendimiento excelente.
+
+
+🚀 Ejecución en local
+
+Para revisar, modificar o mantener el proyecto:
+
+```sh
+# Clonar el repositorio
+git clone <URL_DEL_REPO>
+
+# Acceder al directorio
+cd INKED_STUDIO
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
 ```
+Esto abrirá la web en el navegador con recarga automática al editar.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+🏭 Build de producción
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+Para generar la versión final que se subirá al hosting del cliente:
+```sh
+npm run build
 ```
+Esto generará la carpeta dist/ con todos los archivos optimizados.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+🌐 Despliegue
 
-## Building
+Los archivos de la carpeta dist/ pueden instalarse en:
 
-To build the project run:
+Vercel
 
-```bash
-ng build
-```
+Netlify
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+cPanel u otros hostings clásicos
 
-## Running unit tests
+VPS o servidores privados
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Cualquier hosting compatible con sitios estáticos
 
-```bash
-ng test
-```
+El sitio no requiere backend para su funcionamiento.
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+📌 Estado del proyecto
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+El proyecto INKED_STUDIO está finalizado, estable y listo para ser entregado o desplegado.
+Puede ampliarse fácilmente con nuevas páginas, galerías, secciones de tatuadores o funcionalidades como reservas online.
