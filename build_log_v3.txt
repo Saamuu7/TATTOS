@@ -1,0 +1,85 @@
+
+> tatto-studio-angular@0.0.0 build
+> ng build
+
+[33m❯[39m Building...
+[32m✔[39m Building...
+Application bundle generation failed. [7.848 seconds] - 2025-12-17T17:43:50.485Z
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: SafePipe is not used within the template of ContactComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/contact/contact.component.ts:10:68:
+[37m      10 │ ... [CommonModule, LucideAngularModule, UiButtonDirective, [32mSafePipe[37m],
+         ╵                                                            [32m~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG8002: Can't bind to 'safe' since it isn't a known property of 'iframe'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/contact/contact.component.ts:137:14:
+[37m      137 │               [32m[safe]="true"[37m
+          ╵               [32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../shared/ui/ui-button.directive' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/hero/hero.component.ts:4:34:
+[37m      4 │ ...t { UiButtonDirective } from [32m'../../shared/ui/ui-button.directive'[37m;
+        ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/hero/hero.component.ts:9:49:
+[37m      9 │     imports: [CommonModule, LucideAngularModule, [32mUiButtonDirective[37m],
+        ╵                                                  [32m~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/pages/home/hero/hero.component.ts:9:49:
+[37m      9 │     imports: [CommonModule, LucideAngularModule, [32mUiButtonDirective[37m],
+        ╵                                                  [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../shared/ui/ui-button.directive' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/welcome-banner/welcome-banner.component.ts:4:34:
+[37m      4 │ ...t { UiButtonDirective } from [32m'../../shared/ui/ui-button.directive'[37m;
+        ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/pages/home/welcome-banner/welcome-banner.component.ts:9:49:
+[37m      9 │     imports: [CommonModule, LucideAngularModule, [32mUiButtonDirective[37m],
+        ╵                                                  [32m~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/pages/home/welcome-banner/welcome-banner.component.ts:9:49:
+[37m      9 │     imports: [CommonModule, LucideAngularModule, [32mUiButtonDirective[37m],
+        ╵                                                  [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../lib/utils' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/shared/ui/sheet/sheet.component.ts:4:19:
+[37m      4 │ import { cn } from [32m'../../lib/utils'[37m;
+        ╵                    [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../shared/ui/ui-button.directive"[0m
+
+    src/app/pages/home/hero/hero.component.ts:4:34:
+[37m      4 │ ...t { UiButtonDirective } from [32m'../../shared/ui/ui-button.directive'[37m;
+        ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../shared/ui/ui-button.directive"[0m
+
+    src/app/pages/home/welcome-banner/welcome-banner.component.ts:4:34:
+[37m      4 │ ...t { UiButtonDirective } from [32m'../../shared/ui/ui-button.directive'[37m;
+        ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
